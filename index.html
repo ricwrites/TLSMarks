@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+<style id="qk3p2a">
+ html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+width:10%;
+height:20%;}
+
+#root {
+  flex: 1;
+  padding-bottom: 60px; /* space so footer doesn't clash visually */
+}
+
+.footer {
+  text-align: center;
+  padding-top: 10px;
+  position:relative;
+}
+
+#tccontainer {
+  display: flex; 
+  justify-content: space-between; 
+}
+</style>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TLS Marks</title>
+  </head>
+  <body>
+<img class="headimg" src = "./src/assets/TLS.jpg"> <h1 class ="pagetitle"> The Learning Sanctuary </h1>
+
+    <div id="root"></div>
+    <script type="module" src="/src/admin.jsx"></script>
+  </body>
+</html>
