@@ -14,7 +14,7 @@ export const ReportCards = () => {
   const [selectedTerm, setSelectedTerm] = useState('');
 
   useEffect(() => {
-    fetch('/api/classes')
+    fetch('https://admin.thelearningsanctuary.quest/api/classes')
       .then(res => res.json())
       .then(data => setClasses(data))
       .catch(err => console.error('Error fetching classes:', err));
